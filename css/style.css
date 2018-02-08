@@ -24,7 +24,7 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;    
-  background-color: white;
+  background-color: lightgrey;
 }
 
 .location {
@@ -34,6 +34,10 @@ nav {
 
 .content {
   width: 90%;
+}
+
+.arrow, .content {
+    display: inline-block;
 }
 
 .content h1 {
@@ -52,5 +56,5 @@ nav {
 }
 
 div:hover {
-  background-color: lightgrey;
+  background-color: darkgrey;
 }
